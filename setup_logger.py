@@ -1,0 +1,18 @@
+# setup_logger.py
+import logging
+
+# Create a custom connection.log post-processor logger
+logger = logging.getLogger('connection.log post-processor logger')
+
+# Create handlers
+c_handler = logging.StreamHandler()
+c_handler.setLevel(logging.DEBUG)
+
+# Create formatters and add it to handlers
+c_format = logging.Formatter('[%(levelname)8s]: %(message)s')
+cd_format = logging.Formatter(
+    '%(asctime)s — %(levelname)s — %(funcName)s:%(lineno)d — %(message)s')
+c_handler.setFormatter(c_format)
+
+# Add handlers to the logger
+logger.addHandler(c_handler)
