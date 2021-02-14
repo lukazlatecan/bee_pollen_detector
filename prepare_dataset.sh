@@ -37,8 +37,8 @@ for image_dir in $image_dirs; do
     echo "==============================              Done              =============================="
     echo "============================================================================================"
 done
-python labelme2coco.py "$OUTPUT_DIR/train" --output "$OUTPUT_DIR/train/trainval.json"
-python labelme2coco.py "$OUTPUT_DIR/test" --output "$OUTPUT_DIR/test/trainval.json"
+python3 labelme2coco.py "$OUTPUT_DIR/train" --output "$OUTPUT_DIR/train/trainval.json"
+python3 labelme2coco.py "$OUTPUT_DIR/test" --output "$OUTPUT_DIR/test/trainval.json"
 find "$OUTPUT_DIR" -type f -name '*.json' ! -name "trainval.json" -delete
 rm data.tar.gz
 tar -zcvf data.tar.gz data

@@ -53,13 +53,13 @@ There is also a .tar.gz file available to downlod [here](https://drive.google.co
 ### Neural network
 
 Result of this project is a neural network that detects bees with and without pollen on the image.
-To see details on how to train the neural network, check [Google Collab](https://colab.research.google.com/drive/13W2IGGL1Mwt43lsGWSuFLmGI5XHLiRsD?usp=sharing)
+To see details on how to train the neural network, check [Google Collab](https://colab.research.google.com/drive/13trSURrUEV7lz4fnWbV1wYFCru0fOWuZ)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 In order to train and test the data I used [Google Collab](https://colab.research.google.com/). You can find my notebook [here](https://colab.research.google.com/drive/13trSURrUEV7lz4fnWbV1wYFCru0fOWuZ) These notebook will get you through whole process, from installing requirements, preparing the dataset, training neural network and finally running bee pollen detection on some sample video.
 
-## 🔧 Running the tests <a train = "train"></a>
+## 🔧 Train <a train = "train"></a>
 
 You can see how to train the dataset [here](https://colab.research.google.com/drive/13trSURrUEV7lz4fnWbV1wYFCru0fOWuZ#scrollTo=wlqXIXXhW8dA)
 
